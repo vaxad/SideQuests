@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('../public/fonts/Montserrat-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+  
+@font-face {
+  font-family: "Montserrat";
+  src: url('../public/fonts/Montserrat-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('../public/fonts/Montserrat-Light.ttf');
+  font-weight:lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('../public/fonts/Montserrat-Medium.ttf');
+  font-weight:600;
+  font-style: normal;
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+ 
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+  }
+}
+
+body {
+  overflow-x: hidden;
+  color: rgb(55, 55, 55);
+  background-color: rgb(246, 246, 246);
+}
+
+h1,h2,h3,h4,div,a{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p,span{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+
+
+#about{
+  height: 100vh;
+  background-image: url('../public/banner2.png');
+  background-repeat: no-repeat;
+  background-size: 30vh;
+}
+
+#contact{
+  height: 70vh;
+}
+
+
+
+@media only screen and (min-width: 720px) {
+  #navbar{
+    height: 20vh;
+  }
+  #home{
+    background-image: url('../public/banner1.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    top: 40vh;
+    background-size: 80vh;
+    height: 100vh;
+  }
+  .abttext{
+    color:rgb(244,152,13)
+  }
+  #testimonials{
+    height: 100vh;
+  }
+}
+
+
+@media only screen and (max-width: 720px) {
+  .abttext{
+    color:rgb(130,130,130)
+  }
+  body{
+    overflow-x: hidden;
+  }
+  #home{
+    background-image: url('../public/banner1.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    top: 40vh;
+    background-size: 25vh;
+    min-height: 100vh;
+  }
+}

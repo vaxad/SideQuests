@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Monument";
+  src: url('../public/fonts/MonumentExtended-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+  }
+  
+  @font-face {
+  font-family: "Monument";
+  src: url('../public/fonts/MonumentExtended-Ultrabold.otf');
+  font-weight: bold;
+  font-style: normal;
+  }
+  
+  
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  /* background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb)); */
+    background: rgb(60,24,138);
+/* background: linear-gradient(90deg, rgba(60,24,138,1) 0%, rgba(79,50,213,1) 35%, rgba(0,0,0,1) 100%); */
+}
+
+button,a{
+  font-family: 'Monument';
+}
+
+h1, h2, h3,h5{
+  font-family: 'Monument';
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+span, p{
+  font-family: 'Monument';
+  font-weight: normal;
+}
+
