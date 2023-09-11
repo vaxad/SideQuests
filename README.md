@@ -1,0 +1,8 @@
+# side-quests (frontend side projects)
+## [CoffeePeela](https://compute-task1.vercel.app)
+## [Kozo](https://djcsi-task1.vercel.app)
+## [Crypto](https://crypto-csi.vercel.app)
+## [GDSC - Events](https://gdsc-task1.vercel.app)
+## [Flopify](https://gdsc-task2.vercel.app)
+## [DummyJson](https://dummy-json-next.vercel.app)
+## [Foodie](https://landing-page-vaxad.vercel.app/)
