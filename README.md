@@ -1,5 +1,5 @@
 9
-![BeFunky-collage](https://github.com/vaxad/side-quests/assets/126230095/c09d5be3-ecbe-47e5-b16a-212ceaaf4fdc)
+![BeFunky-collage](https://res.cloudinary.com/db670bhmc/image/upload/v1701884482/273757420-c09d5be3-ecbe-47e5-b16a-212ceaaf4fdc_iqtu6o.jpg)
 
 # side-quests (frontend side projects)
 ## [CoffeePeela](https://compute-task1.vercel.app)
